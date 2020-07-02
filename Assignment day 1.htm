@@ -9,40 +9,26 @@
           grid-template-columns: 60% 40%;
           grid-gap:1em;
         }
-        .wrapper > div{
-          background:#eee;
-          padding:1em;
-  
+        .abc{
+        	display: grid;
+        	grid-template-rows: 25% 10%;
+        	 
         }
-        .wrapper > div:nth-child(odd){
-          background:#ddd;
-        }
-        table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        }
-
-        td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-        }
-
-        tr:nth-child(even) {
-        background-color: #dddddd;
+        body{
+        	background-color: black;
         }
       </style>
 <body>
-	<section style="background-color:green; text-align: center;">
+	<section style="background-color:green; text-align: center; border:solid;" margin="3">
 		<h1>Vishally Gupta</h1>
-	</section>
+	</section><br>
 	<div class="wrapper">
 		<div>
-    <section 1 style="background-color:purple">
+    <section 1 style="background-color:purple; border:solid;" margin="3">
 		<p>Hye!! I am Vishally Gupta and i am from Jammu</p>
 	        </section 1><br>
-	<section 2 style="background-color: blue">
+
+	<section 2 style="background-color: blue; border:solid;" margin="3">
 		<p> Ordered list of my subjects </p>
 		<ol>
 			<li>Python</li>
@@ -56,8 +42,9 @@
 			<li>Painting</li>
 			<li>Watching Movies</li>
 		</ul>
-	</section 2>
-    <section 3 style="background-color: yellow">
+	</section 2><br>
+    <section 3 style="background-color: yellow; border:solid;" margin="3">
+    	<p>Table containing my fav songs</p>
     	<table border="1" cellpadding="5">
     		<tr>
                 <th>Song</th>
@@ -77,27 +64,30 @@
     		</tr>
     	</table>
     	<br>
-    </section 3>
-    <section 4 style="background-color: pink">
+    </section 3><br>
+    <section 4 style="background-color: pink; border:solid;" margin="3">
     	<p>Here are some links to contact me</p>
     	<a href="">Click here to reach my watsapp no.</a><br>
     	<a href="">Click here to call me</a><br>
     	<a href="">Click here to mail me</a><br>
     </section 4><br>
 </div>
-<div>
-    <section 5 style="background-color: red" width=500px height=500px>
+<div class="abc">
+    <section 5 style="background-color: red; border:solid; height:100%; width: 100%" margin="3" width=500px height=500px>
     	<form>
-    		<label>Full Name</label>
-    		<input type="text" name=""><br>
-    		<label>Roll Number</label>
-    		<input type="Number" name=""><br>
-    		<label>Message</label>
-    		<input type="text" name="" row="10" coloumn="50">
-    		<button type="Submit">Submit</button><br>
+    		<label>Full Name</label><br>
+    		<input type="text" name="">
+    		<br>
+    		<label>Roll Number</label><br>
+    		<input type="Number" name="">
+    		<br>
+    		<label>Message</label><br>
+    		<textarea> </textarea><br>
+    		<button type="Submit">Submit</button>
+    		<br>
     	</form>
     </section 5><br>
-    <section 6 style="background-color: orange">
+    <section 6 style="background-color: orange; border:solid; max-height: 100%" margin="3">
     	<iframe src="https://www.google.com" title="google here"></iframe>
     </section 6>
 </div>
